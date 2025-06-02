@@ -37,3 +37,21 @@ For a complete understanding of the methodology, statistical formulas, and inter
 * **R:** Programming language for statistical computing and graphics.
 * **RStudio:** (Recommended) Integrated Development Environment for R.
 * **Base R functions:** Utilized for most statistical calculations, tests, and plotting.
+
+## How to Use / Reproduce Results
+
+1.  **Prerequisites:** Ensure you have R and preferably RStudio installed on your system.
+2.  **Get the files:** Clone this repository or download the `R_Script.R` and `Report.pdf` files.
+3.  **Install packages (if needed):** If functions like `skewness` or `kurtosis` are not part of your base R and cause errors, you may need to install and load relevant packages (e.g., `install.packages("moments")` then `library(moments)`).
+4.  **Run the R Script:**
+    * Open `R_Script.R` in RStudio or any R environment.
+    * Execute the script line by line or in sections to perform the analysis and view outputs (tables, plots, test results).
+5.  **Consult the Report:** For context, detailed explanations of the variables, hypotheses, and in-depth discussion of the results, refer to `Report.pdf`. (Please note the report is written in Indonesian).
+
+## Summary of Key Findings
+
+(Based on the conclusions in `Report.pdf`. Refer to the full report for details.)
+
+* The average daily TikTok usage among the surveyed students was found to be more than 2 hours.
+* There was a statistically significant increase in the overall time students spent on social media after they began using TikTok, compared to their usage before TikTok.
+* The study found a statistically significant dependency between the duration of students' TikTok usage and the indication of schizoid traits.
